@@ -22,11 +22,11 @@ small {
   text-align: center;
 }
 
-.fa-stop-circle {
+.fa-heart {
   color: red;
 }
 
-.nein {
+.loveMe {
   height: 440px;
   width: 300px;
   background: url('https://images.unsplash.com/photo-1504215680853-026ed2a45def?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80')
@@ -38,7 +38,7 @@ small {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
-.nein .fa-stop-circle {
+.loveMe .fa-heart {
   position: absolute;
   animation: grow 0.6s linear;
   transform: translate(-50%, -50%) scale(0);
