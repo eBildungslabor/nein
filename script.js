@@ -20,7 +20,7 @@ loveMe.addEventListener('click', (e) => {
 const createHeart = (e) => {
     const heart = document.createElement('i')
     heart.classList.add('fas')
-    heart.classList.add('fa-heart')
+    heart.classList.add('fa-sad-cry')
 
     const x = e.clientX
     const y = e.clientY
