@@ -34,7 +34,7 @@ const createstopp = (e) => {
     heart.style.top = `${yInside}px`
     heart.style.left = `${xInside}px`
 
-    Nein.appendChild(stopp)
+    nein.appendChild(stopp)
 
     times.innerHTML = ++timesClicked
 
