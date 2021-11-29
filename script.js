@@ -1,4 +1,4 @@
-const schreie = document.querySelector('.schreie')
+const nein = document.querySelector('.nein')
 const times = document.querySelector('#times')
 
 let clickTime = 0
@@ -9,7 +9,7 @@ loveMe.addEventListener('click', (e) => {
         clickTime = new Date().getTime()
     } else {
         if((new Date().getTime() - clickTime) < 800) {
-            createAaah(e)
+            createstopp(e)
             clickTime = 0
         } else {
             clickTime = new Date().getTime()
@@ -17,8 +17,8 @@ loveMe.addEventListener('click', (e) => {
     }
 })
 
-const createAaah = (e) => {
-    const Aaah = document.createElement('i')
+const createstopp = (e) => {
+    const stopp = document.createElement('i')
     heart.classList.add('fas')
     heart.classList.add('fa-heart')
 
@@ -34,9 +34,9 @@ const createAaah = (e) => {
     heart.style.top = `${yInside}px`
     heart.style.left = `${xInside}px`
 
-    loveMe.appendChild(heart)
+    Nein.appendChild(stopp)
 
     times.innerHTML = ++timesClicked
 
-    setTimeout(() => Aaah.remove(), 1000)
+    setTimeout(() => stopp.remove(), 1000)
 }
