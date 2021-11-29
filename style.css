@@ -22,7 +22,7 @@ small {
   text-align: center;
 }
 
-.fa-heart {
+.fa-stop-circle {
   color: red;
 }
 
@@ -38,7 +38,7 @@ small {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
-.nein .fa-heart {
+.nein .fa-stop-circle {
   position: absolute;
   animation: grow 0.6s linear;
   transform: translate(-50%, -50%) scale(0);
