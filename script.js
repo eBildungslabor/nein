@@ -20,7 +20,7 @@ nein.addEventListener('click', (e) => {
 const createstopp = (e) => {
     const stopp = document.createElement('i')
     stopp.classList.add('fas')
-    stopp.classList.add('fa-heart')
+    stopp.classList.add('fa-stop-circle')
 
     const x = e.clientX
     const y = e.clientY
