@@ -4,7 +4,7 @@ const times = document.querySelector('#times')
 let clickTime = 0
 let timesClicked = 0
 
-loveMe.addEventListener('click', (e) => {
+nein.addEventListener('click', (e) => {
     if(clickTime === 0) {
         clickTime = new Date().getTime()
     } else {
@@ -19,8 +19,8 @@ loveMe.addEventListener('click', (e) => {
 
 const createstopp = (e) => {
     const stopp = document.createElement('i')
-    heart.classList.add('fas')
-    heart.classList.add('fa-heart')
+    stopp.classList.add('fas')
+    stopp.classList.add('fa-heart')
 
     const x = e.clientX
     const y = e.clientY
